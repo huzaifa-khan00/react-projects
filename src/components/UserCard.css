@@ -1,0 +1,8 @@
+.user-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 200px;
+    background-color: gray;
+}

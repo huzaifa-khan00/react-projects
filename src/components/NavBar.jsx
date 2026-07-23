@@ -8,6 +8,7 @@ function NavBar() {
       <nav className="nav">
         <Link to="/">Home Page</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/users">Users</Link>
       </nav>
     </>
   );
