@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg';
 import heroImg from './assets/hero.png';
 import UsersList from './components/UsersList';
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
   let users = [{name: "khan"}, {name: "ali"}, {name: "rabbit"}];
@@ -13,7 +14,8 @@ function App() {
 
   return (
     <>
-      <h1>I am Home Page</h1>;
+      <NavBar />
+      <h1>Home Page</h1>
     </>
   )
 }
