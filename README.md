@@ -1,16 +1,11 @@
-# React + Vite
+# react-projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal repo for practicing React — small exercises, mini-projects, and larger builds.
 
-Currently, two official plugins are available:
+## Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `practices/` — small exercises for individual concepts as they're taught
+- `mini-projects/` — self-contained small projects
+- `big-projects/` — larger, multi-feature projects
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Each folder inside these is its own project with its own `package.json` and README.
