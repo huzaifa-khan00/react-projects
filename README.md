@@ -4,7 +4,6 @@ Personal repo for practicing React — small exercises, mini-projects, and large
 ## Structure
 - `practices/` — small exercises for individual concepts as they're taught
 - `mini-projects/` — self-contained small projects
-- `big-projects/` — larger, multi-feature projects
 
 This repo uses **npm workspaces** — dependencies are installed once at the root.
 Each folder inside these is its own project with its own `package.json`, but shares one root `node_modules`.
