@@ -1,0 +1,26 @@
+{
+  "name": "react-projects",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal repo for practicing React - small exercises, mini-projects, and larger builds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "mini-projects/*",
+    "practices/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huzaifa-khan00/react-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/huzaifa-khan00/react-projects/issues"
+  },
+  "homepage": "https://github.com/huzaifa-khan00/react-projects#readme"
+}
