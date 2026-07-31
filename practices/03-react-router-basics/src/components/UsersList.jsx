@@ -1,4 +1,5 @@
 import UserCard from "./UserCard";
+import "./Userslist.css";
 
 function UsersList({ users }) {
   let headings = ["First Heading", "Second Heading", "Third Heading"];
@@ -6,7 +7,7 @@ function UsersList({ users }) {
 
   
   return (
-    <div>
+    <div className="users-list">
       <h2>{headings.map(heading => heading)}</h2>
       <ul>
         {users.map((user, index) => (

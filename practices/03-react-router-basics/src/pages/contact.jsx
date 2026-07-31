@@ -1,4 +1,5 @@
 import NavBar from "../components/NavBar";
+import "./pages.css";
 
 function Contact(){
 

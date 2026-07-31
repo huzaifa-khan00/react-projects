@@ -1,0 +1,15 @@
+.users-list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.users-list li {
+  background: #1e293b;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: #94a3b8;
+}
