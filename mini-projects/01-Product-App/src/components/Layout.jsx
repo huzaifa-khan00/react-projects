@@ -7,7 +7,6 @@ function Layout() {
         <>
             <Navbar />
             <Outlet />
-            <footer>I Am Footer Content Here</footer>
         </>    
     )
 }
