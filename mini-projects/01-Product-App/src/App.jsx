@@ -9,6 +9,8 @@ import AboutPage from './pages/AboutPage';
 import HomePage from './pages/HomePage';
 import Faq from './pages/Faq';
 import Layout from "./components/Layout";
+import Products from "./pages/Products";
+import Product from "./pages/Product";
 
 
 function App() {
@@ -17,11 +19,12 @@ function App() {
     <>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/home-page" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/faq" element={<Faq />} />
         </Route>
         <Route path="/products" element={<Products />} />
+        <Route path="/product-details/:prodId" element={<Product />} />
       </Routes>
     </>
   );
