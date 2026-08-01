@@ -22,11 +22,6 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="navbar-item">
-            <NavLink to={"/product"} className="navbar-link">
-              Product
-            </NavLink>
-          </li>
-          <li className="navbar-item">
             <NavLink to={"/faq"} className="navbar-link">
               FAQs
             </NavLink>
