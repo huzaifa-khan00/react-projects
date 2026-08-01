@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/huzaifa-khan00/react-projects/issues"
   },
-  "homepage": "https://github.com/huzaifa-khan00/react-projects#readme"
+  "homepage": "https://github.com/huzaifa-khan00/react-projects#readme",
+  "dependencies": {
+    "axios": "^1.19.0",
+    "react-router-dom": "^7.18.2"
+  }
 }
