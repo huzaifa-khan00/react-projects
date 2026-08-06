@@ -10,8 +10,8 @@ function UsersList({ users }) {
     <div className="users-list">
       <h2>{headings.map(heading => heading)}</h2>
       <ul>
-        {users.map((user, index) => (
-         <li key={index}>{user.name}</li>
+        {users.map((user, i) => (
+         <li key={i}>{user.name}</li>
         ))}
       </ul>
     </div>
